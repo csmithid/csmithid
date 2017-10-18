@@ -1,0 +1,25 @@
+.container {
+  margin: auto;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px; }
+
+.box {
+  opacity: 1;
+  flex: 1 0 30%;
+  margin: 10px;
+  background: lightgrey;
+  background-size: cover;
+  height: auto;
+  transition: opacity 0.1s ease; }
+  .box:before {
+    content: "";
+    float: left;
+    padding-top: 100%; }
+  @media screen and (hover: hover) {
+    .box:hover {
+      opacity: 0.5; } }
+
+/*# sourceMappingURL=styles.css.map */
