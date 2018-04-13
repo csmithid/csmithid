@@ -425,11 +425,11 @@ there.
   display:flex;
   flex-wrap: wrap;
   align-items:center;
-  padding:1rem;
+  //padding:1rem;
 }
 
 footer{
-  margin:1rem;
+  margin:1rem auto 2.25rem auto;
   flex: 1 1 100%;
   text-align: center;
   img{
@@ -438,8 +438,19 @@ footer{
   }
 }
 
-.header {
-  margin: 2rem 0 0 2rem;
+header {
+  text-align: left;
+  padding:1rem;
+  color: #20303B;
+  height:6rem;
+  max-width:960px;
+  margin: 2rem auto 0 auto;
+  ul{
+    li{
+      display:inline;
+      padding:2.25rem 0 2.25rem 0;
+    }
+  }
 }
 
 .box {

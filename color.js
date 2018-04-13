@@ -1,3 +1,7 @@
-var colors = ['#FA9645', '#69C88A', '#B02127', '#7783A6'];
+var colors = ['DarkOrange','Gold','YellowGreen','DodgerBlue'];
 var random_color = colors[Math.floor(Math.random()*colors.length)];
-document.getElementById('colored').style.color = random_color;
+var modify = document.getElementsByClassName('colored');
+var i;
+for(i=0;i<modify.length;i++){
+  modify[i].style.color = random_color;
+}
